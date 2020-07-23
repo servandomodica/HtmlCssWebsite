@@ -1,2 +1,2 @@
 # CompleteWebsite
-Complete website / It was made for a final exam (technician's subject)
+Complete website / I made it for a final exam, of one of my technician's subjects.
