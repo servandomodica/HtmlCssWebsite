@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+<title>Contacto - Andrés Módica</title>
+<meta charset="utf-8"/>
+<link rel="stylesheet" type="text/css" href="MODICApromoEstilos.css"/>
+<link rel="shortcut icon" href="images/favicon.ico" />
+</head>
+
+
+<body>
+
+
+<div id="headercontacto">
+
+
+<div>
+<a href="MODICApromoHome.html"><img id="logo" src="images/logo.png"></a>
+
+<div id="tableheader">
+<table>
+	<tr>
+		<td><a href="servicios.html">Servicios</a></td>
+		<td><a href="faqstips.html">TIPs y FAQs</a></td>
+		<td><a href="accesibilidad.html">On-The-Go!</a></td>
+		<td><a href="contacto.html">Contacto</a></td>
+		<td>
+			<form method="post" action="mailto:servando.modica@gmail.com">
+			<label>Newsletter</label><br>
+			<input name="buscar" type="email" placeholder="   Suscribí tu casilla ...@..." required><br>
+			<input name="OK" type="submit">
+			</form>
+		</td>
+	</tr>
+</table>
+</div>
+
+</div>
+
+
+<div id="headcontacto">
+<p>Unite a cientos que ya han transformado su forma de ser en 4 meses<br>
+usando mi método de coaching enfocado en hábitos simples</p>
+
+<h3>Los campos marcados con un asterisco <span>*</span> son obligatorios</h3>
+
+<form method="post" action="mailto:servando.modica@gmail.com">
+
+<fieldset>
+<legend>Sobre vos</legend>
+<center>
+<label>Nombres <span>*</span></label><input type="text" name="nombre" required>
+<label>Apellidos</label><input type="text" name="apellidos">
+<br><br>
+<label>Sexo</label>
+	<input type="radio" name="sexo">Hombre
+	<input type="radio" name="sexo">Mujer
+	<input type="radio" name="sexo" checked>S/D
+<br><br>
+<label>Edad</label>
+	<input type="radio" name="edad">10-20
+	<input type="radio" name="edad" checked>21-40
+	<input type="radio" name="edad">41-60
+	<input type="radio" name="edad">+60
+<br><br>
+<label>Ciudad</label><input type="text" name="ciudad">
+<label>Provincia</label><input type="text" name="provincia" placeholder="(de Argentina)">
+<br>
+<label>Otro país de residencia habitual</label>
+<select name="paises">
+	<option>S/D</option>
+	<option>Uruguay</option>
+	<option>Brasil</option>
+	<option>Paraguay</option>
+	<option>Chile</option>
+	<option>Bolivia</option>
+	<option>Perú</option>		
+	<option>Colombia</option>
+	<option>Ecuador</option>
+	<option>Venezuela</option>
+	<option>Otros</option>
+</select>
+<br><br>
+<label>Correo electrónico <span>*</span></label><input type="email" name="mail" placeholder="@" required>
+<br>
+<label>Teléfono</label><input type="text" name="telefono" placeholder="(cód área) + (número)">
+</center>
+</fieldset>
+
+
+<fieldset>
+<legend>Desde dónde partiremos</legend>
+<center>
+<label>Tu frecuencia de actividades físicas</label>
+<select name="frecuencias">
+	<option>Varias veces al día</option>
+	<option>Varias veces por semana</option>
+	<option selected>Varias veces por mes</option>
+	<option>Según la época del año</option>
+</select>
+<br><br>
+<label><b>Tus tipos de actividades físicas preferidas:</b></label>
+<br><br>
+	<input type="checkbox" name="m1" checked>Aire libre (ciudad)
+	<input type="checkbox" name="m2" class="options">Contacto con la naturaleza (campo)
+	<input type="checkbox" name="m3" class="options">Lugares cubiertos/cerrados<br>
+	<input type="checkbox" name="m4" class="options" checked>Con aparatos
+	<input type="checkbox" name="m5" class="options">Sin aparatos<br>
+	<input type="checkbox" name="m6" class="options" checked>Alta intensidad/exigencia
+	<input type="checkbox" name="m7" class="options">Baja intensidad/exigencia<br>
+	<input type="checkbox" name="m8" class="options" checked>Corta duración (hasta 1 hora)
+	<input type="checkbox" name="m9" class="options">Media duración (1-2 horas)
+	<input type="checkbox" name="m10" class="options">Larga duración (más de 2 horas)<br>
+	<input type="checkbox" name="m11" class="options" checked>De lunes a viernes
+	<input type="checkbox" name="m12" class="options">Sábados/Domingos<br>
+	<input type="checkbox" name="m13" class="options" checked>Por la mañana
+	<input type="checkbox" name="m14" class="options">Por la siesta
+	<input type="checkbox" name="m15" class="options">Por la tarde
+<br><br>
+<label><b>Tus comentarios personales o sobre tu situación física actual:</b></label>
+<br>
+<textarea name="comentarios" placeholder="Escribí aquí..." rows=4 cols=90></textarea>
+</center>
+</fieldset>
+
+<fieldset>
+<legend>Newsletter</legend>
+<center>
+<label><b>Tu opinión, sugerencia o consulta sobre nuestra web:</b></label>
+<br>
+<textarea name="opiniones" placeholder="Escribí aquí..." rows=4 cols=90></textarea>
+<br><br>
+<label><b>¿De dónde me conocés?</b></label>
+	<input type="checkbox" name="origen" checked>De un amigo o familiar
+	<input type="checkbox" name="origen">De googlear
+	<input type="checkbox" name="origen">De sitios relacionados
+	<input type="checkbox" name="origen">Otros
+<br><br>
+<label><b>Deseo recibir</b> tips, news y ofertas de A.M.P.T.:</label>
+	<input type="radio" name="ofertas">Una vez al día
+	<input type="radio" name="ofertas" checked>Una vez a la semana
+	<input type="radio" name="ofertas">Una vez al mes	
+<br><br>
+<input type="checkbox" name="acuerdo" required checked><h4><b>* Acepto</b> el acuerdo de servicios, la declaración de privacidad y la declaración de uso de cookies</h4>
+</center>
+</fieldset>
+
+<br>
+<center>
+<button type="submit" name="crear">ENVIAR!</button>
+</center>
+
+</form>
+
+</div>
+
+</div>
+
+
+<div id="garantcontacto">
+<center>
+
+<h2>Tu gran cambio, garantizado</h2>
+<br>
+<div>
+<p>En <b>Andrés Módica Personal Training</b> estoy tan apasionado y seguro de lograr resultados para mis clientes que si te comprometés y hacés todo dentro de mi programa de entrenamiento y no ves y sentís resultados notables después de 12 semanas, te reembolsaré toda tu inversión.<br><br>
+Sin hacer preguntas, simplemente nos separamos como amigos, ¡y no es que haya tenido que darle un reembolso a alguien antes!<br><br>
+Así de seguro estoy de que esta será la <b>MEJOR</b> transformación que hayas experimentado.</p>
+
+<img class="rotate" src="images/garantizado.png">
+</div>
+
+</center>
+</div>
+
+<div id="redes">
+<center>
+<h2>Sigamos conectados</h2><br>
+<hr>
+<table>
+	<tr>
+		<td><a href="http://www.facebook.com/"><img src="images/facebook.png"></a></td>
+		<td><a href="http://www.instagram.com/"><img src="images/instagram.png"></a></td>
+		<td><a href="http://www.twitter.com/"><img src="images/twitter.png"></a></td>
+		<td><a href="http://www.youtube.com/"><img src="images/youtube.png"></a></td>
+	</tr>
+</table>
+
+</center>
+</div>
+
+
+<footer>
+
+<table id="main">
+	<tr>
+		<td class="der"><h3><b>QUIÉNES SOMOS</b></h3><br>
+		<p><b>A.M.P.T.</b> es una empresa de capacitación personal en línea que se enfoca en ayudar a los clientes a desarrollar hábitos sostenibles para transformar su estilo de vida de por vida.</p></td>
+		<td class="der"><h3><b>ACCESOS</b></h3><br>
+		<table id="links">
+			<tr>
+				<td rowspan=2 class="celdaup"><a href="#logo"><img class="up" src="images/goup.png"></a></td>
+				<td><a href="servicios.html">Servicios</a></td>
+				<td><a href="faqstips.html">TIPs y FAQs</a></td>
+			</tr>
+			<tr>
+				<td><a href="accesibilidad.html">On-The-Go!</a></td>
+				<td><a href="contacto.html">Contacto</a></td>
+			</tr>
+		</table>		
+		</td>
+		<td class="der"><h3><b>SUSCRIPCIÓN EN UN CLICK</b></h3><br>
+		<form method="post" action="mailto:servando.modica@gmail.com">
+			<label>Newsletter</label><br>
+			<input name="buscar" type="email" placeholder="   Suscribí tu casilla ...@..." size=20 required><br><br>
+			<button type="submit" name="OK">Enviar</button>
+			</form>
+		</td>
+		<td><h3><b>UBICACIÓN</b></h3><br>
+		<a href="https://www.google.com.ar/maps/place/Instituto+Superior+Santo+Domingo/@-31.4137016,-64.181225,19z/data=!4m5!3m4!1s0x9432a29da8e0623d:0xba7c9d25b3fac648!8m2!3d-31.4137508!4d-64.1799939?hl=es"><img class="mapita" src="images/mapa.jpg"></a>
+		<p class="map">Gral. Alvear 270<br>
+		X5021EAF<br>
+		Ciudad de Córdoba<br>
+		Córdoba<br>
+		Argentina</p></td>
+	</tr>
+	<tr><td id="foot" colspan=4><p><span>/ </span>© COPYRIGHT <b>2019</b>. Todos los derechos reservados por sus respectivos autores. <span>/ / /</span> Diseño web por <b>Andrés Módica</b> para Instituto Superior Santo Domingo.<span> /</span></p></td>
+	</tr>
+</table>
+
+</footer>
+
+
+</body>
+</html>
